@@ -1,4 +1,4 @@
-package lrulfu
+package lfu
 
 import (
 	"testing"
@@ -34,7 +34,7 @@ func TestOneLfu(t *testing.T) {
 	lfu := NewOneLfu()
 	// list root node is nil 拒绝访问的
 
-	t.Errorf("lfu")
+	// t.Errorf("lfu")
 	t.Logf("lfu is %#v", lfu.lists[2])
 	t.Logf("lfu is %#v", lfu.lists[2].Front().Prev())
 	t.Logf("lfu is %#v", lfu.lists[2].Back().Next())

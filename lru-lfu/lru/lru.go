@@ -1,4 +1,4 @@
-package lrulfu
+package lru
 
 import (
 	"container/list"
