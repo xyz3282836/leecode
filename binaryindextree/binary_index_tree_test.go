@@ -12,5 +12,5 @@ func TestInit(t *testing.T) {
 	}
 	bits.Init(initarr)
 	t.Logf("tree is %v", bits.tree)
-	t.Logf("%d", bits.Query(8))
+	t.Logf("%d", bits.Query(15))
 }
