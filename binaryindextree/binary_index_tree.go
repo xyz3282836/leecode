@@ -34,7 +34,7 @@ func (bit *BinaryIndexedTree) Add(index int, val int) {
 	}
 }
 
-// Query define
+// Query define Q(i) = A1 + A2 + ... + Ai
 func (bit *BinaryIndexedTree) Query(index int) int {
 	sum := 0
 	for index >= 1 {
