@@ -4,6 +4,7 @@ import "log"
 
 // BinaryIndexedTree define
 type BinaryIndexedTree struct {
+	// B0 B1 B2 ... Bi
 	tree     []int
 	capacity int
 }
